@@ -3,13 +3,27 @@ body {
     background-color: #060606da;
     margin: 0;
     padding: 0;
+}
+
+header nav{
+    background-color: #cea636;
+    height: 30px;
+    text-align: center;
+}
+
+header nav a{
+    font-weight: bold;
+    color: black;
+}
+
+section{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .container {
+    margin-top: 18%;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
