@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectángulo - Calculadora</title>
+    <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="./src/views/circulo.html">Calcular Circulo</a>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <h1>Calculadora de Rectángulo</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 399.837 399.837"
+                xml:space="preserve">
+                <path
+                    d="M394.457 106.222H5.375A5.374 5.374 0 0 0 0 111.597v176.642a5.375 5.375 0 0 0 5.375 5.376h389.086a5.376 5.376 0 0 0 5.375-5.376V111.597a5.38 5.38 0 0 0-5.379-5.375m-282.009 58.607H50.324v25.455h59.909v19.435H50.324v24.978h62.124v20.547h-82.83V144.593h82.825v20.236zm115.271 90.414h-23.391l-28.293-41.571-28.297 41.571h-23.394v-.631l38.407-55.321-37.3-53.738v-.956h22.922l27.662 41.261 27.662-41.261h22.911v.956l-37.457 53.738 38.568 55.321zm33.251 0h-20.703V144.598h20.703zm109.245-91.677h-35.082v91.677h-20.866v-91.677h-35.082v-18.969h91.035v18.969z" />
+            </svg>
+            <form id="rectangleForm">
+                <label for="base">Base:</label>
+                <input type="number" id="base" name="base" required>
+    
+                <label for="altura">Altura:</label>
+                <input type="number" id="altura" name="altura" required>
+    
+                <button type="button" onclick="calcularRectangulo()">Calcular</button>
+            </form>
+    
+            <div id="resultados" class="resultados">
+                <p><strong>Área:</strong> <span id="areaResultado"></span></p>
+                <p><strong>Perímetro:</strong> <span id="perimetroResultado"></span></p>
+                <p><strong>Diagonal:</strong> <span id="diagonalResultado"></span></p>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="./src/js/rectangulo.js"></script>
+</body>
+
+</html>

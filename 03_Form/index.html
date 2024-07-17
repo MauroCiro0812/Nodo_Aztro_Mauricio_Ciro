@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conoce nuestras rutas de entrenamiento" />
+    <meta name="keywords" content="Formulario de datos personales, Mauricio, Ciro, Riaza, MauroCiro0812">
+    <meta name="sitedomain" content="https://example.com/" />
+    <meta name="organization" content="Nodo Eafit" />
+    <meta name="author" content="Mauricio Ciro Riaza" />
+    <meta name="designer" content="Mauricio Ciro Riaza" />
+    <meta name="copyright" content="© 2024 Nodo Eafit Entrenamiento. Todos los derechos reservados">
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="revisit-after" content="15days" />
+    <title>Formulario</title>
+</head>
+
+<body>
+    <main style="background-color: rgba(0, 0, 0, 0.719); color: white;">
+        <h1>Formulario de Inscripción</h1>
+        <form>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <div>
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <br>
+                <div>
+                    <label for="Apellido">Apellido</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                <br>
+                <div>
+                    <label for="Correo">Correo</label>
+                    <input type="email" id="correo" name="correo" placeholder="example@email.com" required>
+                </div>
+                <br>
+                <div>
+                    <label for="Direccion">Direccion</label>
+                    <input type="text" name="adress" id="adress" required>
+                </div>
+                <br>
+                <div>
+                    <label for="Departamento">Departamento</label>
+                    <input type="text" name="departamento" id="departamento">
+                </div>
+                <br>
+                <div>
+                    <label for="">Seleccione su pais de origen: </label>
+                    <br>
+                    <input type="radio" id="colombia" name="pais" value="colombia">
+                    <label for="colombia">Colombia</label><br>
+                    <input type="radio" id="argentina" name="pais" value="argentina">
+                    <label for="argentina">Argentina</label><br>
+                    <input type="radio" id="mexico" name="pais" value="mexico">
+                    <label for="mexico">México</label><br>
+                    <input type="radio" id="peru" name="pais" value="peru">
+                    <label for="peru">Perú</label><br>
+                    <input type="radio" id="chile" name="pais" value="chile">
+                    <label for="chile">Chile</label>
+                </div>
+                <br>
+                <div>
+                    <label for="Telefono de contacto">Telefono de contacto</label>
+                    <input type="Telefono de contacto" name="numberPhone" id="numberPhone">
+                </div>
+
+            </fieldset>
+            <fieldset>
+                <legend>Datos de Inscripción</legend>
+                <p>A que carrera deseas inscribirte?</p>
+
+                <select name="" id="carrera">
+                    <option value="">Cloud Native</option>
+                    <option value="">Frontend</option>
+                    <option value="">Backend</option>
+                    <option value="">Fundamentals</option>
+                    <option value="">Phyton</option>
+                    <option value="">Marketing Digital</option>
+                </select>
+
+                <p>Modalidad</p>
+                <select name="" id="modalidad">
+                    <option value="">Presencial</option>
+                    <option value="">Virtual</option>
+                </select>
+
+                <p>Estas trabajando actualmente?</p>
+                <select name="" id="">
+                    <option value="">Si</option>
+                    <option value="">No</option>
+                </select>
+            </fieldset>
+            <br>
+            <button>Enviar</button>
+            <button>Restablecer</button>
+
+        </form>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circulo - Calculadora</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../../index.html">Calcular Rectangulo</a>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <h1>Calculadora de Circulo</h1>
+            <svg width="100" height="100" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.986 1.217c-8.132 0-14.745 6.574-14.745 14.707s6.613 14.745 14.745 14.745 14.706-6.613 14.706-14.745S24.118 1.217 15.986 1.217m0 25.813c-6.129 0-11.106-4.978-11.106-11.107S9.857 4.816 15.986 4.816s11.106 4.978 11.106 11.107S22.114 27.03 15.986 27.03m.001-19.11c-4.43 0-8.043 3.572-8.043 8.002s3.613 8.043 8.043 8.043 8.002-3.613 8.002-8.043a7.99 7.99 0 0 0-8.002-8.002m1.209 13.964-1.182-4.437-1.185 4.447c-2.404-.473-4.298-2.387-4.77-4.796l4.427-1.179-4.425-1.179a6.04 6.04 0 0 1 4.781-4.75l1.172 4.402L17.184 10a6.05 6.05 0 0 1 4.733 4.754l-4.375 1.165 4.377 1.166c-.465 2.398-2.338 4.309-4.722 4.8z"/>
+              </svg>          
+            <form id="circleForm">
+                <label for="radio">Radio:</label>
+                <input type="number" id="radio" name="radio" required>
+    
+                <label for="diametro">Diametro:</label>
+                <input type="number" id="diametro" name="diametro" required>
+    
+                <button type="button" onclick="calcularCirculo()">Calcular</button>
+            </form>
+    
+            <div id="resultados" class="resultados">
+                <p><strong>Área:</strong> <span id="areaResultado"></span></p>
+                <p><strong>Perímetro:</strong> <span id="perimetroResultado"></span></p>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="../js/circulo.js"></script>
+</body>
+
+</html>
